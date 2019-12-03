@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<div class="container" >
+  
+  <div class="panel panel-default" style="border-style: solid;background-color:powderblue; border-width: 1px;">
+  <div style="font-color:#dddddd";> <BR>
+<center ><h3 STYLE="color:#2C68A4">Adding File to MR Inventory</h3></center></div>
+ 
+ <div class="panel-body"  >
+<br>
+<div class="row" style="border:2px;">
+  <div class="col-sm-3"><label style ="margin-left: 205px;color:#2C68A4"><B>UH ID</B></label></div>
+  <div class="col-sm-3"><input type="text" style ="margin: px;" name="lastname"></div>
+  <div class="col-sm-2"><label style ="color:#2C68A4;margin-left: 10px;"><B>IP ID</B></label></div>
+  <div class="col-sm-3"><input type="text" style ="margin-left: -105px;" name="lastname"></div>
+
+
+  
+</div>
+<br>
+
+<div class="row" style= "padding-left:50px">
+<div class="col-sm-3"></div>
+<div class="col-sm-3"><button type="button" style ="margin-left: -20px;width:500px;background-color: #2C68A4;color: white;border: none;"><B>Fetch Patient Detail</B></button></div>
+</div>
+
+<br> <div class="panel-body" style="border-style: solid;margin-left: 280px;margin-right: 280px; border-width: 1px;" ><BR>
+<div class="row">
+  <div class="col-sm-6"><label style ="margin-left: 60px;color:#2C68A4"><b>Patient Name</b></label></div>
+  <div class="col-sm-6"><input type="text" "name="lastname"></div>
+  
+</div>
+
+
+<div class="row">
+  <div class="col-sm-6"><label style ="margin-left: 60px;color:#2C68A4"><b>Patient Age</b></label></div>
+  <div class="col-sm-6"><input  type="text" name="patientage"></div>
+  
+</div>
+
+<div class="row">
+  <div class="col-sm-6"><label style ="margin-left: 60px;color:#2C68A4"><b>Patient Sex</b></label></div>
+  <div class="col-sm-6"><input  type="text" name="patientsex"></div>
+  
+</div>
+
+<div class="row">
+  <div class="col-sm-6"><label style ="margin-left: 60px;color:#2C68A4"><b>Patient Address</b></label></div>
+  <div class="col-sm-6"><input  type="text" name="patientaddrs"></div>
+  
+</div>
+
+<div class="row">
+  <div class="col-sm-6"><label style ="margin-left: 60px;color:#2C68A4"><b>Discharge Date</b></label></div>
+  <div class="col-sm-6"><input type="text" name="DischargeDate"></div>
+  
+</div>
+<br>
+<div class="row" style= "padding-left:50px">
+
+<div class="col-sm-3">
+<button type="button" style ="margin-left: 5px;background-color:#2C68A4; width:425px;color: white;border: none;padding:3px;"><b>Add to Inventory</b></button></div><br><br>
+<div class="col-sm-3"></div>
+
+</Div><BR>
+</div><br>
+ <div class="panel-body" style="border-style: solid; margin-left: 200px; margin-right: 200px; border-width: 1px;" >
+ <br>
+<div class="row">
+  <div class="col-sm-4"><label style ="margin-left: 28px;color:#2C68A4" ><b>File Physical Location</b></label>
+ 
+  <input type="text" style ="margin-left: 25px; PADDING:0PX" name="filelocation"></div>
+   <div class="col-sm-2"><label style ="margin-left: -30px;color:#2C68A4"><b>No. of Copies</b></label>
+	   <br>
+             <select id = "myList" style ="margin-left: -30px;>
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+			    <option value = "5">5</option>
+				 <option value = "6">6</option>
+				  <option value = "7">7</option>
+				   <option value = "8">8</option>
+				   <option value = "9">9</option>
+				   
+             </select></div>
+
+  <div class="col-sm-4"><label style ="margin-left: 60px;color:#2C68A4"><b>QR Code Generated</b></LABEL>
+  <input type="text" style ="margin-LEFT: 100px; PADDING:0PX;height:80px;width:80px"  name="qrcodegen"></div>
+   
+	  
+	   <div class="col-sm-2"><label style ="margin-left: -20px;color:#2C68A4"><b>No. of Copies</b></label>
+	   <br>
+             <select id = "myList" style ="margin-left: -20px;>
+               <option value = "1">1</option>
+               <option value = "2">2</option>
+               <option value = "3">3</option>
+               <option value = "4">4</option>
+			    <option value = "5">5</option>
+				 <option value = "6">6</option>
+				  <option value = "7">7</option>
+				   <option value = "8">8</option>
+				   <option value = "9">9</option>
+				   
+             </select></div>	
+			
+ 
+ </div>
+
+ <br>
+   <div class="row">
+   <div class="col-sm-4"">
+   <button type="button" style ="margin-left: 24px;background-color:#2C68A4; width:250px;color: white;border: none;padding:3px;"><B>Print File Location</B></button></div><br>
+<div class="col-sm-4""><button type="button" style ="margin-left: 200px;background-color:#2C68A4; width:250px;color: white;border: none;padding:3px;"><B>Print QR Code</B></button></div><br>
+
+</div>
+<br>
+
+</div>
+<br>
+<div class="row""><center><button type="button" style ="margin-left: 380px;background-color:#2C68A4; width:400px;color: white;border: none;padding:3px;"><B>Scan Medical Records</B></button></div></center><br>
+<br>
+
+<div class="row">
+<a href="https://sapna5994.github.io/Dashboard.html/"><button type="button" style ="background-color: #2C68A4;color: white; margin-left:50px; border: none; padding:2px;width:100px"><b>Dashboard</b></button></a>
+<a href="index.html"><button type="button" align="right" style ="background-color: #2C68A4;color: white; margin-left:840px;  border: none; padding:2px;width:100px"><b>Exit</b></button></a>
+</div>
+
+<br>
+
+</div>
+
+  
+</div>
+
